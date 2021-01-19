@@ -39,9 +39,9 @@ setup_apache:
 before_script: composer
 	mkdir coverage
 ifeq ($(COMPOSERV1),1)
-	cd /home/runner/work/prestashop-module/prestashop-module/../PrestaShop && bash travis-scripts/install-prestashop
+	cd /home/runner/work/prestashop-module/prestashop-module/../PrestaShop && bash travis-scripts/install-prestashop --db_user=root --db_password=root
 else
-	cd /home/runner/work/prestashop-module/prestashop-module/../PrestaShop && bash travis-scripts/install-prestashop.sh
+	cd /home/runner/work/prestashop-module/prestashop-module/../PrestaShop && bash travis-scripts/install-prestashop.sh --db_user=root --db_password=root
 endif
 
 test:
