@@ -1,16 +1,16 @@
-[![Build Status](https://img.shields.io/travis/retailcrm/prestashop-module/master.svg?style=flat-square)](https://travis-ci.org/retailcrm/prestashop-module)
-[![Coverage](https://img.shields.io/codecov/c/gh/retailcrm/prestashop-module/master.svg?style=flat-square)](https://codecov.io/gh/retailcrm/prestashop-module)
-[![GitHub release](https://img.shields.io/github/release/retailcrm/prestashop-module.svg?style=flat-square)](https://github.com/retailcrm/prestashop-module/releases)
-[![PHP version](https://img.shields.io/badge/PHP->=5.3-blue.svg?style=flat-square)](https://php.net/)
+[![Build Status](https://img.shields.io/travis/retailcrm/prestashop-module/workflows/woo/badge.svg)](https://travis-ci.org/retailcrm/prestashop-module/actions)
+[![Coverage](https://img.shields.io/codecov/c/gh/retailcrm/prestashop-module/master.svg?logo=github)](https://codecov.io/gh/retailcrm/prestashop-module)
+[![GitHub release](https://img.shields.io/github/release/retailcrm/prestashop-module.svg?logo=codecov)](https://github.com/retailcrm/prestashop-module/releases)
+[![PHP version](https://img.shields.io/badge/PHP->=5.4-blue.svg?logo=php)](https://php.net/)
 
 Prestashop module
 =================
 
-Module allows integrate CMS Prestashop with [retailCRM](https://www.retailcrm.pro)
+Module allows integrate CMS Prestashop with [RetailCRM](https://www.retailcrm.pro) ([Documentation](https://docs.retailcrm.ru/Users/Integration/SiteModules/PrestaShop) page)
 
 #### Features:
 
-* Export orders to retailCRM & fetch changes back
+* Export orders to RetailCRM & fetch changes back
 * Export product catalog into [ICML](https://help.retailcrm.pro/Developers/ICML) format
 
 #### Setup
@@ -22,7 +22,7 @@ Module allows integrate CMS Prestashop with [retailCRM](https://www.retailcrm.pr
 #### Notice
 
 * This release contains an experimental feature "corporate customers". Use at your own risk.
-* This release only supports retailCRM API v5.
+* This release only supports RetailCRM API v5.
 
 #### Customization
 
